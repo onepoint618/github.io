@@ -2507,10 +2507,12 @@ input::-moz-focus-inner {
 .s-services {
   padding-top: 19.2rem;
   padding-bottom: 16rem;
+  /* Remove background wheel image 25/9/2023
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-image: url(../images/services-bg.jpg);
+  */
   color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
