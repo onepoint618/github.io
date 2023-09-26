@@ -1514,8 +1514,18 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
+/* Previous 
 .ss-dark .section-heading,
 .ss-dark .section-desc {
+  color: #ffffff;
+}
+*/
+
+/* Updated 26/9/2023 */
+
+.ss-dark .section-heading,
+.ss-dark .section-desc, 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #ffffff;
 }
 
