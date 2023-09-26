@@ -2531,6 +2531,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   position: relative;
 }
 
+/* Original 26/9/2023 :
+
 .s-services .shadow-overlay {
   position: absolute;
   top: 0;
@@ -2540,7 +2542,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   opacity: .3;
   background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 80%);
 }
+*/
 
+/* Updated 26/9/2023 */
+.s-services .shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Updated Opacity from .85 to .5 26/9/2023 */
 .s-services::before {
   content: "";
   position: absolute;
@@ -2549,7 +2563,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   width: 100%;
   height: 100%;
   background-color: #050505;
-  opacity: .85;
+  opacity: .5;
 }
 
 .s-services h4 {
