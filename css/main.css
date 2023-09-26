@@ -2522,11 +2522,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .s-services {
   padding-top: 19.2rem;
   padding-bottom: 16rem;
-  /* Remove background wheel image 25/9/2023. Reverted 26/9/2023 */
+  /* Remove background wheel image 25/9/2023. */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/services-bg.jpg);
+  /*  background-image: url(../images/services-bg.jpg); */
   color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
