@@ -1514,12 +1514,17 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
-/* Updated - add selector for <p> */
+/* Updated - add selector for <p> elements */
 .ss-dark .section-heading,
-.ss-dark .section-desc,
-.ss-dark p {
+.ss-dark .section-desc
+{
   color: #ffffff;
 }
+
+p.ss-dark {
+  color: #ffffff;
+}
+
 
 /* Updated 26/9/2023
 
