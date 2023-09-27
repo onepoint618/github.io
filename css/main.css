@@ -1516,15 +1516,18 @@ input::-moz-focus-inner {
 
 /* Updated - add selector for <p> elements */
 .ss-dark .section-heading,
-.ss-dark .section-desc
+.ss-dark .section-desc,
+.ss-dark p, .ss-dark .p,
+.ss-dark h3, .ss-dark .h3
 {
-  color: #ffffff;
+  color: blue;
 }
 
+/*
 p.ss-dark {
   color: #ffffff;
 }
-
+*/
 
 /* Updated 26/9/2023
 
