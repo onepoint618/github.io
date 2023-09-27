@@ -2572,9 +2572,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   opacity: 0.1;
 }
 
+/* Removed h4 property  color: #ffffff;  28/9/2023 */
 .s-services h4 {
   font-weight: 400;
-  color: #ffffff;
 }
 
 .s-services a {
