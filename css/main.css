@@ -3498,13 +3498,23 @@ footer a:visited {
   font-size: 14px;
   display: inline-block;
 }
+/* UPdated 28.9.2023 */
 
+.ss-copyright span::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 1rem 0 1.2rem;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+/* Original 
 .ss-copyright span::after {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
   color: rgba(255, 255, 255, 0.1);
 }
+*/
 
 .ss-copyright span:last-child::after {
   display: none;
