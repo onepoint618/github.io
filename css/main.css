@@ -3479,7 +3479,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.03);
   color: rgba(255, 255, 255, 0.3);
 /* Added 29.9.2023 */
-  bac
+  background: #000000;
   position: relative;
 }
 
